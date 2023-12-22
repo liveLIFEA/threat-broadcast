@@ -6,8 +6,8 @@ database:
 github:
   graphql: 'https://api.github.com/graphql'
   repo: 'threat-broadcast'
-  owner: 'lyy289065406'
-  gtk: "<%= ENV['GTK'] %>"                # Github Token，若非空值则使用 Github Actions 发送播报邮件
+  owner: 'liveLIFEA'
+  gtk: "<%= ENV['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'] %>"                # Github Token，若非空值则使用 Github Actions 发送播报邮件
   auto_commit: False                      # 使用 Github Actions 时不需要开启：自动提交变更到仓库（可自动归档、生成 Github Page）
   
 crawler:
@@ -16,7 +16,6 @@ crawler:
 notify:
   mail_smtp: 'smtp.qq.com'
   mail_user: 'qhcap466@163.com'     # 用于发送播报信息的邮箱账号
-  mail_pass: "hao123"
-  qq_user: '123742030'                    # 用于向 QQ 群发送播报信息的 QQ 账号
-  qq_pass: "<%= ENV['QQ_PASS'] %>"
-
+  mail_pass: "<%= ENV['hao123'] %>"
+  qq_user: ''                    # 用于向 QQ 群发送播报信息的 QQ 账号
+  qq_pass: "<%= ENV[''] %>"
